@@ -1,0 +1,13 @@
+{
+  "response": [
+    {
+      "datetime": "1587565773",
+      "filename": "lineage-17.1-20200422-UNOFFICIAL-angler.zip",
+      "id": "1587565773",
+      "romtype": "UNOFFICIAL",
+      "size": "1587565773",
+      "url": "https://master.dl.sourceforge.net/project/zjrdroid/potter/lineage/lineage-17.1-20200422-UNOFFICIAL-potter.zip",
+      "version": "17.1"
+    }
+  ]
+}

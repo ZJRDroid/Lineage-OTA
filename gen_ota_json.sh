@@ -10,6 +10,7 @@ size=$(wc -c ../lineage/out/target/product/potter/lineage-17.1-"${d}"-UNOFFICIAL
 oldsize=$(grep size potter.json | cut -d ':' -f 2)
 oldurl=$(grep url potter.json | cut -d ' ' -f 8)
 url=https://master.dl.sourceforge.net/project/zjrdroid/potter/lineage/lineage-17.1-"${d}"-UNOFFICIAL-potter.zip
+
 # This is where the magic happens
 
 

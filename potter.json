@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": "1587600053",
-      "filename": "lineage-17.1-20200423-UNOFFICIAL-potter.zip",
-      "id": "2fc5efaeaeade33a69cba318a4f54942",
+      "datetime": "1587660178",
+      "filename": "lineage-X-17.1-20200423-UNOFFICIAL-potter.zip",
+      "id": "d2c38045c038d1e3ed715c562842c04d",
       "romtype": "UNOFFICIAL",
-      "size": "671137659",
-      "url": "https://master.dl.sourceforge.net/project/zjrdroid/potter/lineage/lineage-17.1-20200423-UNOFFICIAL-potter.zip",
+      "size": "671480719",
+      "url": "https://master.dl.sourceforge.net/project/zjrdroid/potter/lineage/lineage-X-17.1-20200423-UNOFFICIAL-potter.zip",
       "version": "17.1"
     }
   ]

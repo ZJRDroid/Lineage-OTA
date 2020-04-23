@@ -2,14 +2,14 @@
 
 d=$(date +%Y%m%d)
 oldd=$(grep filename potter.json | cut -d '-' -f 3)
-md5=$(md5sum ../lineage/out/target/product/potter/lineage-17.1-"${d}"-UNOFFICIAL-potter.zip | cut -d ' ' -f 1)
+md5=$(md5sum ../lineage/out/target/product/potter/lineage-X-17.1-"${d}"-UNOFFICIAL-potter.zip | cut -d ' ' -f 1)
 oldmd5=$(grep '"id"' potter.json | cut -d':' -f 2)
 utc=$(grep ro.build.date.utc ../lineage/out/target/product/potter/system/build.prop | cut -d '=' -f 2)
 oldutc=$(grep datetime potter.json | cut -d ':' -f 2)
-size=$(wc -c ../lineage/out/target/product/potter/lineage-17.1-"${d}"-UNOFFICIAL-potter.zip | cut -d ' ' -f 1)
+size=$(wc -c ../lineage/out/target/product/potter/lineage-X-17.1-"${d}"-UNOFFICIAL-potter.zip | cut -d ' ' -f 1)
 oldsize=$(grep size potter.json | cut -d ':' -f 2)
 oldurl=$(grep url potter.json | cut -d ' ' -f 8)
-url=https://master.dl.sourceforge.net/project/zjrdroid/potter/lineage/lineage-17.1-"${d}"-UNOFFICIAL-potter.zip
+url=https://master.dl.sourceforge.net/project/zjrdroid/potter/lineage/lineage-X-17.1-"${d}"-UNOFFICIAL-potter.zip
 
 # This is where the magic happens
 
